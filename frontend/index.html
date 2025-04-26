@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>BookMyShow Clone</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">BookMyShow</div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Movies</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Plays</a></li>
+        <li><a href="#">Sports</a></li>
+        <li><a href="#">Activities</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="movies-section">
+      <h1>Now Showing</h1>
+      <div id="movies-container" class="movies-container"></div>
+    </section>
+
+    <section id="movie-details" class="movie-details hidden">
+      <button id="back-button">← Back to Movies</button>
+      <div class="movie-info">
+        <img id="movie-poster" src="" alt="Movie Poster" />
+        <div class="movie-text">
+          <h2 id="movie-title"></h2>
+          <p id="movie-description"></p>
+          <p><strong>Language:</strong> <span id="movie-language"></span></p>
+          <p><strong>Genre:</strong> <span id="movie-genre"></span></p>
+          <p><strong>Duration:</strong> <span id="movie-duration"></span></p>
+          <p><strong>Release Date:</strong> <span id="movie-release"></span></p>
+        </div>
+      </div>
+      <div class="showtimes-section">
+        <h3>Showtimes</h3>
+        <div id="showtimes-container"></div>
+      </div>
+    </section>
+
+    <section id="booking-section" class="booking-section hidden">
+      <h3>Book Tickets</h3>
+      <form id="booking-form">
+        <label for="showtime-select">Select Showtime:</label>
+        <select id="showtime-select" required></select>
+
+        <label for="seats-input">Number of Seats:</label>
+        <input type="number" id="seats-input" min="1" max="10" value="1" required />
+
+        <button type="submit">Book Now</button>
+      </form>
+      <div id="booking-message"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 BookMyShow Clone. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Avengers: Endgame",
+    "poster": "https://m.media-amazon.com/images/I/81ExhpBEbHL._AC_SY679_.jpg",
+    "language": "English",
+    "genre": ["Action", "Adventure", "Sci-Fi"],
+    "duration": "3h 1m",
+    "releaseDate": "2019-04-26T00:00:00Z",
+    "description": "After the devastating events of Avengers: Infinity War, the universe is in ruins. The Avengers assemble once more to reverse Thanos' actions and restore balance.",
+    "showtimes": [
+      {
+        "theater": "PVR Cinemas",
+        "time": "2024-06-01T18:00:00Z",
+        "price": 300,
+        "seatsAvailable": 50
+      },
+      {
+        "theater": "INOX",
+        "time": "2024-06-01T21:00:00Z",
+        "price": 350,
+        "seatsAvailable": 40
+      }
+    ]
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "poster": "https://m.media-amazon.com/images/I/71Q0Z9Z2J6L._AC_SY679_.jpg",
+    "language": "English",
+    "genre": ["Action", "Adventure", "Fantasy"],
+    "duration": "2h 28m",
+    "releaseDate": "2021-12-17T00:00:00Z",
+    "description": "Peter Parker's life and reputation are turned upside down when his identity is revealed. He seeks help from Doctor Strange, leading to dangerous consequences.",
+    "showtimes": [
+      {
+        "theater": "PVR Cinemas",
+        "time": "2024-06-02T17:00:00Z",
+        "price": 320,
+        "seatsAvailable": 60
+      },
+      {
+        "theater": "Cinepolis",
+        "time": "2024-06-02T20:00:00Z",
+        "price": 330,
+        "seatsAvailable": 55
+      }
+    ]
+  }
+]
